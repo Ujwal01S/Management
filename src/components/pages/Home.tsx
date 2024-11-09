@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='flex w-full min-h-[100vh]'>
         <div className=" bg-black bg-opacity-50 w-1/2 bg-cover bg-center h-screen" style= {{backgroundImage: `url(${home})`}}>
-            <p className='text-slate-200 text-3xl text-center mt-20 font-bold font-mono'>This is Employee Management System</p>
+            <p className='text-slate-200 text-3xl text-center mt-20 font-bold font-mono'>Odd Job Employee Management System</p>
         </div>
         
 

@@ -1,0 +1,28 @@
+{
+    "demo_table_data":[
+        {
+            "firstName":"Auser1",
+            "lastName":"Buser1LastName",
+            "age":"30",
+            "address":"bkt"
+        },
+        {
+            "firstName":"Fuser2",
+            "lastName":"OPuser2Last",
+            "age":"10",
+            "address":"ktm"
+        },
+        {
+            "firstName":"user3",
+            "lastName":"HYuser3LastName",
+            "age":"70",
+            "address":"pokhara"
+        },
+        {
+            "firstName":"Duser4",
+            "lastName":"Buser4LastName",
+            "age":"45",
+            "address":"ktm"
+        }
+    ] 
+}

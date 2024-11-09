@@ -1,0 +1,52 @@
+
+
+    Content I :In svg: 
+     1.className="fill-current" : This property is used to fill the svg with its parent container tag color
+     2.the spam that contains svg text color is black by default so svg will take black color when used fill-current
+
+
+    Content II :In Before&After:
+     1.When applying bg-[color] using before&after we need the position to be relative before:absolute.
+     2.If we fill before or after in contents i.e. hover:before:content-['Geeks'] no position is required
+     3.content can only have text inside
+
+    Content III :In cva(class-variance-authorization):
+     1.syntax:
+        const <variableName> = cva('default css that applies to all',
+        {
+            variants:{
+                //Inside this we can define many vairant with different property for reach
+                size:{
+                small:'w-[250px]',
+                large:'w-[550px]'
+            },
+            color:{
+                primary:'text-slate-700',
+                danger:'text-red-700'
+            },
+            defaultVariants:{
+                size:'small',
+                color:'danger'
+            }
+            }
+        }
+        )
+        2.cva provides VairantProps for typescript we use it as: export type buttonVariantProps = VariantProps<typeof buttonStyles>
+        3.Rest of syntax:
+            type buttonProps = {
+                className?:string
+                children:React.ReactNode
+            } & buttonVariantProps
+
+            export const Button = ({children,className,color,size,defaultVariants}:buttonProps) => {
+            return (
+                <div className={twMerge(buttonStyles({color,size,defaultVariants, className}),className)}>
+                    {children}
+                </div>
+            )
+            }
+        4. Using cva: <Button size="small" color="primary">
+                        CVA BUTTON
+                      </Button>
+    
+    Content IV : different between stroke and fill The fill is the color inside the shape, and the stroke is the visible outline of the object or path.
