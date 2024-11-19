@@ -1,0 +1,29 @@
+{
+"milestones": [
+      {
+        "number": "01",
+        "startDate": "31 Dec 22",
+        "endDate": "12 Jan 23",
+        "status": "completed"
+      },
+      {
+        "number": "01",
+        "startDate": "12 Jan 23",
+        "endDate": "24 Jan 23",
+        "status": "active"
+      },
+      {
+        "number": "03",
+        "startDate": "24 Jan 23",
+        "endDate": "17 Mar 23",
+        "status": "upcoming"
+      },
+      {
+        "number": "04",
+        "startDate": "17 Mar 23",
+        "endDate": "12 Jun 23",
+        "status": "upcoming"
+      }
+    ]
+
+}
